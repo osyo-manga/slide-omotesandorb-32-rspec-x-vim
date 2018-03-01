@@ -42,11 +42,6 @@ Ruby で利用されているテストフレームワーク。DSL ぽく記述�
 
 ```ruby
 describe Array do
-	context "#empty?" do
-		it { expect([].empty?).to eq true }
-		it { expect([1].empty?).to eq false }
-	end
-
 	context "size" do
 		it { expect([1].size).to eq 1 }
 		it { expect([1, 2].size).to eq 2 }
@@ -58,6 +53,11 @@ describe Array do
 		it { expect(subject[0]).to eq 1 }
 		it { expect(subject[1]).to eq 2 }
 		it { expect(subject[2]).to eq 3 }
+	end
+
+	context "first/last" do
+		subject { [1, 2, 3] }
+		it { is_expected.to have_attributes(first: 1, last: 3) }
 	end
 end
 ```
