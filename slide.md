@@ -4,16 +4,17 @@
 
 ---
 
-## 自己紹介
+### 自己紹介
 - - -
 
 * なまえ  : おしょー
 * Twitter : [@pink_bangbi](https://twitter.com/pink_bangbi)
 * github  : [osyo-manga](https://github.com/osyo-manga)
 * ブログ  : [Secret Garden(Instrumental)](http://secret-garden.hatenablog.com)
-* Ruby（ﾁｮｯﾄ on Rails）
+* Ruby 歴 3年（ﾏｯﾀｸﾃﾞｷﾅｲ on Rails）
   * 役に立たない gem をつくってる
   * Ruby にパッチ投げつけてる
+  * Ruby 2.6-preview でパッチが取り込まれた！      <!-- .element: class="fragment" -->
 
 ---
 
@@ -25,12 +26,12 @@
 * [ruboty-tenki](https://github.com/osyo-manga/gem-ruboty-tenki)
   * Ruboty でお天気情報を返す bot
 * [binding-debug](https://github.com/osyo-manga/gem-binding-debug)
-  * `変数名 : 値` 形式でいい感じにデバッグ出力する
+ * `変数名 : 値` 形式でいい感じにデバッグ出力する
 
 ---
 
-## 今日話す内容
-## RSpec x Vim
+# 今日話す内容
+# RSpec x Vim
 
 ---
 
@@ -77,7 +78,7 @@ end
 
 ---
 
-## デモ
+# デモ
 
 ---
 
@@ -117,7 +118,7 @@ let g:quickrun_config = {
 
 ---
 
-## デモ
+# デモ
 
 ---
 
