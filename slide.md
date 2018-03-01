@@ -12,9 +12,9 @@
 * github  : [osyo-manga](https://github.com/osyo-manga)
 * ブログ  : [Secret Garden(Instrumental)](http://secret-garden.hatenablog.com)
 * Ruby 歴 3年（ﾏｯﾀｸﾃﾞｷﾅｲ on Rails）
+  * 最近は ActionDispatch の testing を読みまくったりとか…
   * 役に立たない gem をつくってる
   * Ruby にパッチ投げつけてる
-  * 最近は ActionDispatch を読みまくったりとか…
   * Ruby 2.6-preview でパッチが取り込まれた！      <!-- .element: class="fragment" -->
 
 ---
