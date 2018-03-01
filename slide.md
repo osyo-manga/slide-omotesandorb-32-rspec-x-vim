@@ -1,6 +1,6 @@
-### 表参道.rb #32
+## 表参道.rb #32
 - - -
-## RSpec x Vim
+# RSpec x Vim
 
 ---
 
@@ -67,13 +67,17 @@ end
 ## RSpec を実行する
 - - -
 
-* spec ファイルを複数実行
+* spec ファイルを複数実行      <!-- .element: class="fragment" -->
   * $ rspec *
-* spec ファイルを指定して実行
+* spec ファイルを指定して実行      <!-- .element: class="fragment" -->
   * $ rspec hoge_spec.rb
-* spec ファイルの行数を指定して
+* spec ファイルの行数を指定して      <!-- .element: class="fragment" -->
   * $ rspec hoge_spec.rb:3
-* 今回は rake から実行する方法については置いておく
+* 今回は rake に関しては保留      <!-- .element: class="fragment" -->
+
+---
+
+## デモ
 
 ---
 
@@ -88,6 +92,7 @@ end
 * Vim で現在開いている rspec ファイルを実行する
   * 実行には quickrunv.vim を使う
 * カーソル位置のテストを実行する
+
 >>>
 
 ## 設定例
@@ -109,6 +114,10 @@ let g:quickrun_config = {
 \	},
 \}
 ```
+
+---
+
+## デモ
 
 ---
 
