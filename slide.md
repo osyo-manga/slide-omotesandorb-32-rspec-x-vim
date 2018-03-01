@@ -60,6 +60,7 @@ describe Array do
 	context "#first/#last" do
 		subject { [1, 2, 3] }
 		it { is_expected.to have_attributes(first: 1, last: 3) }
+# 		it { expect(subject).to have_attributes(first: 1, last: 3) }
 	end
 end
 ```
