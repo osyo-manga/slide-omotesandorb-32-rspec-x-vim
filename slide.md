@@ -14,6 +14,7 @@
 * Ruby 歴 3年（ﾏｯﾀｸﾃﾞｷﾅｲ on Rails）
   * 役に立たない gem をつくってる
   * Ruby にパッチ投げつけてる
+  * 最近は ActionDispatch を読みまくったりとか…
   * Ruby 2.6-preview でパッチが取り込まれた！      <!-- .element: class="fragment" -->
 
 ---
